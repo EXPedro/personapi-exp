@@ -1,6 +1,6 @@
 package com.exp.dio.personapi.service;
 
-import com.exp.dio.personapi.dto.MessageResponseDTO;
+import com.exp.dio.personapi.dto.response.MessageResponseDTO;
 import com.exp.dio.personapi.dto.request.PersonDTO;
 import com.exp.dio.personapi.entity.Person;
 import com.exp.dio.personapi.exception.PersonNotFoundException;
@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -55,8 +54,17 @@ public class PersonService {
                 throw new PersonNotFoundException(id);
             } // before 'improvement' below
         */
-        Person person = personRepository.findById(id)
-                                        .orElseThrow(() -> new PersonNotFoundException(id));
+        Person person = verifyIfExists(id);
         return personMapper.toDTO(person);
+    }
+
+    public void deleteById(Long id) throws PersonNotFoundException {
+        verifyIfExists(id);
+        personRepository.deleteById(id);
+    }
+
+    private Person verifyIfExists(Long id) throws PersonNotFoundException {
+        return personRepository.findById(id)
+                .orElseThrow(() -> new PersonNotFoundException(id));
     }
 }
