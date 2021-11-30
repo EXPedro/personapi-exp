@@ -1,6 +1,6 @@
 # API Rest para cadastro e gerenciamento de pessoas  
 
-:man::person_white_hair::woman::mechanic::person_bald::woman_mechanic: API Rest desenvolvida para realizar operações de __CRUD__ para cadastro e gerencaiamento de pessoas em uma organização.
+:man::person_white_hair::woman::mechanic::person_bald::woman_mechanic: API Rest desenvolvida para realizar operações de __CRUD__ para cadastro e gerenciamento de pessoas em uma organização.
 
 ### :hammer_and_wrench: Ferramentas utilizadas:
 
