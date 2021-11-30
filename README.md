@@ -15,7 +15,7 @@
 - Validação de __CPF__
 - Introdução a testes unitários __JUnit__  
 
-### :sun_with_face: Hospedado no Heroku no endereço:
+### :cloud: Hospedado no Heroku no endereço:
 
 ```$xslt
 https://personapi555.herokuapp.com/api/v1/people
@@ -24,7 +24,7 @@ https://personapi555.herokuapp.com/api/v1/people
 Sugestão de utilização do [__Postman__](https://www.postman.com/) como frontend, para testar os métodos __CRUD__ implementados no projeto
 
 
-### :cloud: A estrutura de dados no JSON deve ser
+### :sun_with_face: A estrutura de dados no JSON deve ser
 
 ```
 {
