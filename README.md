@@ -11,9 +11,9 @@
 [<img src = "https://encurtador.com.br/gmCFQ" width = "auto" height = "28px">](https://encurtador.com.br/gmCFQ)
 [![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)](https://personapi555.herokuapp.com/api/v1/people)
 
-- Utilização de *data transfer objects* (DTOs)
+- Utilização do padrão __DTO__
 - Validação de __CPF__
-- Introdução a testes unitários __JUnit__  
+- Uso de testes unitários __JUnit__  
 
 ### :cloud: Hospedado no Heroku no endereço:
 
