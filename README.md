@@ -15,9 +15,6 @@
 - Validação de __CPF__
 - Introdução a testes unitários __JUnit__  
 
-:green_circle: Projeto concluído em __08/2021__
-
-
 ### :sun_with_face: Hospedado no Heroku no endereço:
 
 ```$xslt
@@ -43,3 +40,4 @@ Sugestão de utilização do [__Postman__](https://www.postman.com/) como fronte
     ]
 }
 ```
+:green_circle: Projeto concluído em __08/2021__
