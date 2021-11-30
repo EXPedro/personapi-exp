@@ -1,14 +1,33 @@
-API REST com Spring Boot para cadastro e gerenciamento de pessoas de uma organização, até o Deploy na nuvem (Heroku). 
+# API Rest para cadastro e gerenciamento de pessoas  
 
-Projeto desenvolvido na Digital Innovation One, sob orientação do especialista 
-[Rodrigo Peleias](https://www.linkedin.com/in/rodrigopeleias/), durante o *bootcamp* do Banco Santander.
+:man::person_white_hair::woman::mechanic::person_bald::woman_mechanic: API Rest desenvolvida para realizar operações de __CRUD__ para cadastro e gerencaiamento de pessoas em uma organização.
 
-No Heroku, o endereço do projeto é:
+### :hammer_and_wrench: Ferramentas utilizadas:
+
+[<img src = "https://encurtador.com.br/iuCOQ" width = "auto" height = "28px">]()
+![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) 
+[<img src = "https://encurtador.com.br/gmCFQ" width = "auto" height = "28px">](https://encurtador.com.br/gmCFQ)
+[![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)](https://personapi555.herokuapp.com/api/v1/people)
+
+- Utilização de *data transfer objects* (DTOs)
+- Validação de __CPF__
+- Introdução a testes unitários __JUnit__  
+
+:green_circle: Projeto concluído em __08/2021__
+
+
+### :sun_with_face: Hospedado no Heroku no endereço:
+
 ```$xslt
 https://personapi555.herokuapp.com/api/v1/people
 ```
-Com o [Postman](https://www.postman.com/), pode-se simular os métodos CRUD do projeto através deste endereço.
-A estrutura de dados no JSON (com cpf válido) deve ser :
+
+Sugestão de utilização do [__Postman__](https://www.postman.com/) como frontend, para testar os métodos __CRUD__ implementados no projeto
+
+
+### :cloud: A estrutura de dados no JSON deve ser
 
 ```
 {
@@ -24,13 +43,3 @@ A estrutura de dados no JSON (com cpf válido) deve ser :
     ]
 }
 ```
-Durante o projeto foi aprimorado o conhecimento nas seguintes tecnologias:
-
-- Maven (inserção de dependências),
-- Spring, lombok, MapStruct e *annotations* relacionados,
-- Criação de interfaces, de conceitos como utilização de *data transfer objects* (DTOs),
-- Introdução a testes unitários,
-- Uso das ferramentas do Github,
-
-&nbsp;
-> Concluido em 08/2021.
