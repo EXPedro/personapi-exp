@@ -7,13 +7,13 @@
 [<img src = "https://encurtador.com.br/iuCOQ" width = "auto" height = "28px">]()
 ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) 
-[<img src = "https://encurtador.com.br/gmCFQ" width = "auto" height = "28px">](https://encurtador.com.br/gmCFQ)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 [![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)](https://personapi555.herokuapp.com/api/v1/people)
 
 - Utilização do padrão __DTO__
 - Validação de __CPF__
-- Uso de testes unitários __JUnit__  
+- Uso de testes unitários __JUnit__    
+- Orientação do especialista [Rodrigo Peleias](https://www.linkedin.com/in/rodrigopeleias/) da [DIO](https://web.dio.me/)
 
 ### :cloud: Hospedado no Heroku no endereço:
 
